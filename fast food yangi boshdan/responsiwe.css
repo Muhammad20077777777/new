@@ -1,0 +1,212 @@
+@media only screen and (max-width: 576px) {
+    .header {
+        position: static;
+    }
+    .site-nav {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1.5rem;
+    }
+    .nav-li {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: .5rem;
+    }
+    .nav-ul {
+        text-align: center;
+    }
+    .nav-logo {
+        text-align: center;
+    }
+
+    /* nav- end */
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-text {
+        width: 90%;
+    }
+    .banner-img {
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    /* banner-end */
+
+    .teaser {
+        flex-direction: column;
+    }
+
+
+    .review {
+        flex-direction: column;
+
+    }
+    .text-review {
+        width: 100%;
+    }
+    .img-review {
+        width: 100%;
+    }
+    .order-now {
+        margin: auto;
+        position: static;
+        width: 100%;
+    }
+    .dowald-app {
+        margin: 2rem 0;
+    }
+    .dowald-app img {
+        display: none;
+    }
+    .app-h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 1rem 2rem;
+        font-size: 3rem;
+    }
+
+    .about-img-img {
+        margin-top: 3rem;
+        position: static;
+        width: 90%;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .about-burg {
+        display: none;
+    }
+    .about-burg-2 {
+        display: none;
+    }
+    .about-text {
+        position: static;
+        margin: auto;
+    }
+
+    .form {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 2rem;
+    }
+    .footer-menu {
+        width: 100%;
+        position: static;
+    }
+    .footer-color {
+        padding: 5.5rem 3rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 998px) {
+    .header {
+        position: static;
+    }
+    .site-nav {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1.5rem;
+    }
+    .nav-li {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: .5rem;
+    }
+    .nav-ul {
+        text-align: center;
+    }
+    .nav-logo {
+        text-align: center;
+    }
+
+    /* nav- end */
+
+    .banner {
+        flex-direction: column;
+    }
+    .banner-text {
+        width: 90%;
+    }
+    .banner-img {
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    /* banner-end */
+
+    .teaser {
+        flex-direction: column;
+    }
+
+
+    .review {
+        flex-direction: column;
+
+    }
+    .text-review {
+        width: 100%;
+    }
+    .img-review {
+        width: 100%;
+    }
+    .order-now {
+        margin: auto;
+        position: static;
+        width: 100%;
+    }
+    .dowald-app {
+        margin: 2rem 0;
+    }
+    .dowald-app img {
+        display: none;
+    }
+    .app-h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 1rem 2rem;
+        font-size: 3rem;
+    }
+
+    .about-img-img {
+        margin-top: 3rem;
+        position: static;
+        width: 90%;
+    }
+    .about-img {
+        text-align: center;
+    }
+    .about-burg {
+        display: none;
+    }
+    .about-burg-2 {
+        display: none;
+    }
+    .about-text {
+        position: static;
+        margin: auto;
+    }
+
+    .form {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 2rem;
+    }
+    .footer-menu {
+        width: 100%;
+        position: static;
+    }
+    .footer-color {
+        padding: 5.5rem 3rem;
+        text-align: center;
+    }
+}
