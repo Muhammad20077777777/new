@@ -111,7 +111,7 @@ body{
 /* .banner-text h1 {
     display: flex;
 } */
-.banner-text h1 p, h1{
+.banner-text h1 p{
     margin: 0 !important;
     display: inline-block;
     font-size: 4rem;
@@ -126,9 +126,11 @@ body{
     }
     50%{
         padding-right: 1.5rem;
+        transform: rotateY(90deg);
     }
     100%{
         padding-right: 0rem;
+        transform: rotateY(0deg);
     }
 }
 
@@ -155,6 +157,19 @@ body{
     font-family: 'Rubik', sans-serif;
     line-height: 1.2;
     margin: 2rem 0;
+    animation: piu 10s ease infinite;
+}
+
+@keyframes piu {
+    0% {
+        letter-spacing: normal;
+    }
+    50% {
+        letter-spacing: 3px;
+    }
+    100% {
+        letter-spacing: normal;
+    }
 }
 .banner-text a {
     font-size: 1.1rem;
@@ -165,6 +180,19 @@ body{
     display: inline-block;
     border-radius: 14px;
     margin-right: 20px;
+    animation: btnt 4s ease infinite;
+}
+
+@keyframes btnt {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .banner-link{    
@@ -185,6 +213,19 @@ body{
 }
 .banner-img img {
     width: 100%;
+    animation: imgg 2s linear infinite;
+}
+
+@keyframes imgg {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .banner-img:hover {
