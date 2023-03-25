@@ -108,12 +108,47 @@ body{
 .banner-text {
     width: 50%;
 }
-.banner-text h1 {
+/* .banner-text h1 {
+    display: flex;
+} */
+.banner-text h1 p, h1{
+    margin: 0 !important;
+    display: inline-block;
     font-size: 4rem;
     font-family: 'Rubik', sans-serif;
+    animation: textt 6s ease infinite ;
 }
+
+
+@keyframes textt {
+    0%{
+        padding: 0;
+    }
+    50%{
+        padding-right: 1.5rem;
+    }
+    100%{
+        padding-right: 0rem;
+    }
+}
+
+@keyframes texttspan {
+    0%{
+        padding: 0;
+    }
+    50%{
+        padding-right: 1rem;
+    }
+    100%{
+        padding-right: 0rem;
+    }
+}
+
+
+
 .banner-text h1 span {
     color: #90e051;
+    animation: texttspan 2s ease-in infinite;
 }
 .banner-text p {
     font-size: 1.2rem;
@@ -126,7 +161,7 @@ body{
     text-decoration: none;
     color: #000;
     padding: 1rem 3rem;
-    border: 1px solid #000;
+    border: 1px solid #00000048;
     display: inline-block;
     border-radius: 14px;
     margin-right: 20px;
@@ -150,6 +185,10 @@ body{
 }
 .banner-img img {
     width: 100%;
+}
+
+.banner-img:hover {
+    transform: rotate(360deg);
 }
 
 
